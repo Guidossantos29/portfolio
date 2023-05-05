@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Sans:wght@200 & family= Quicksand & family= Roboto:wght@700 & display=swap');
+
+:root{
+    --cor-principal:rgb(50, 7, 98);
+    --cor-secundaria:black;
+    --cor-terciaria:orange;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(50, 7, 98);
+    color: white;
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
+
+.destaquetitulo { 
+    color: red;
+}
+
+.euguilherme{
+    width: 30%;
+    height: 30%;
+    border: 5px solid black;
+    border-radius: 16px;
+    
+}
+
+.paragrafodestaque {
+    color: red;
+}
+
+.apresentação{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 15%
+    
+
+    
+}
+
+.apresentaçao__conteudo{
+    width: 50%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+.apresentaçao__conteudo__titulo{
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.apresentaçao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.apresentaçao__botao__link__subtitulo{
+    font-family:'Quicksand', sans-serif; ;
+    margin: 20px;
+}
+
+.apresentaçao__botao{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.apresentaçao__botao__link{
+    border: 2px solid orange;
+    width: 280px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    /* background-color:orange; */
+    padding: 21px;
+    margin: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+.apresentaçao__botao__link:hover{
+    background-color: orange;
+    
+}
+.rodape{
+    background-color: black;
+    padding: 24px;
+    text-align:center;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.cabecalio{
+    color: white;
+    background-color: black;
+    font-size: 1.18rem;
+    font-family: 'Quicksand', sans-serif;
+    padding: 2% 2% 2% 20%;
+    
+}
+
+.home,.sobre-mim{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+
+.home:hover,.sobre-mim:hover{
+    color: orange;
+}
+
+@media (max-width: 1200px) {
+
+    .cebecalio{
+        display: flex;
+        justify-content: center;
+
+    }
+     
+    .apresentação{
+        flex-direction: column-reverse;
+        margin: 5%;
+        
+    }
+    .apresentaçao__conteudo{
+        width: auto;
+    }
+
+
+
+}
+   
+
+
+
+
+
